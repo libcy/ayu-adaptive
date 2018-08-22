@@ -24,7 +24,8 @@ const adaptaColors = {
     'editor.background': '#29353B',
     'tab.activeBackground': '#29353B',
     'titleBar.activeBackground': '#29353B',
-    "editorIndentGuide.background": "#2f3942",
+    "editorIndentGuide.background": "#dfe9f20a",
+    "editorIndentGuide.activeBackground": "#dfe9f20a",
     'selection.background': '#404757fd',
     'editor.selectionBackground': '#404757fd'
 };

@@ -55,7 +55,7 @@
 		"editor.wordHighlightStrongBackground": "#ffcc6633",
 		"editorCursor.foreground": "#ffcc66",
 		"editorWhitespace.foreground": "#3d4752",
-		"editorIndentGuide.background": "#2f3942",
+		"editorIndentGuide.background": "#dfe9f20a",
 		"editorLineNumber.foreground": "#3d4752",
 		"editorMarkerNavigation.background": "#222D32",
 		"editorHoverWidget.background": "#222D32",
@@ -161,7 +161,8 @@
 		"terminal.ansiBrightBlue": "#6871ff",
 		"terminal.ansiBrightMagenta": "#ff77ff",
 		"terminal.ansiBrightCyan": "#a6fde1",
-		"terminal.ansiBrightWhite": "#ffffff"
+		"terminal.ansiBrightWhite": "#ffffff",
+		"editorIndentGuide.activeBackground": "#dfe9f20a"
 	},
 	"tokenColors": [
 		{
