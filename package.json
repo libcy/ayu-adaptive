@@ -1,0 +1,46 @@
+{
+  "name": "ayu-one",
+  "displayName": "Ayu One",
+  "description": "A combination of Ayu and One dark theme.",
+  "version": "0.1.1",
+  "publisher": "ccy",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/libcy/ayu-one"
+  },
+  "bugs": {
+    "url": "https://github.com/libcy/ayu-one/issues",
+    "email": "teabyii@gmail.com"
+  },
+  "engines": {
+    "vscode": "^1.13.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "ayu",
+    "one"
+  ],
+  "homepage": "https://github.com/libcy/ayu-one",
+  "icon": "assets/logo.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ayu One",
+        "uiTheme": "vs-dark",
+        "path": "./ayu-one.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "node ./build.js",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "ayu": "4.0.0",
+    "vsce": "1.22.0"
+  }
+}
