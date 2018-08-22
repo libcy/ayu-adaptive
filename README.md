@@ -1,4 +1,4 @@
-A modification of [vscode-ayu](https://github.com/dempfi/ayu) and with Atom's one dark UI.
+A modification of [vscode-ayu](https://github.com/teabyii/vscode-ayu) and with Atom's one dark style.
 
 ## Install
 
@@ -8,7 +8,7 @@ ext install ayu-one
 
 Then go to `Preferences > Color Theme > Ayu One`.
 
-If you want to setup File Icon, install the original [ayu theme](https://github.com/dempfi/ayu) then go to Preferences > File Icon Theme > Ayu.
+If you want to setup File Icon, install the original [vscode-ayu theme](https://github.com/teabyii/vscode-ayu) then go to Preferences > File Icon Theme > Ayu.
 
 ## Screenshot
 

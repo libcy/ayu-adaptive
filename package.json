@@ -2,7 +2,7 @@
   "name": "ayu-one",
   "displayName": "Ayu One",
   "description": "A combination of Ayu and One dark theme.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publisher": "ccy",
   "license": "MIT",
   "repository": {
@@ -22,7 +22,8 @@
   "keywords": [
     "theme",
     "ayu",
-    "one"
+    "one",
+    "adapta"
   ],
   "homepage": "https://github.com/libcy/ayu-one",
   "icon": "assets/logo.png",
@@ -32,6 +33,11 @@
         "label": "Ayu One",
         "uiTheme": "vs-dark",
         "path": "./ayu-one.json"
+      },
+      {
+        "label": "Ayu Adapta",
+        "uiTheme": "vs-dark",
+        "path": "./ayu-adapta.json"
       }
     ]
   },

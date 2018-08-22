@@ -1,5 +1,11 @@
 ## 0.1.1
 
+`2018-8-22`
+
+Added adapta color
+
+## 0.1.1
+
 `2018-6-8`
 
 Updated build.js
