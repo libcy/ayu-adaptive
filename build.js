@@ -18,12 +18,15 @@ const adaptaColors = {
     'focusBorder': '#00000000',
     'list.focusAndSelectionBackground': '#4678CC',
     'list.activeSelectionBackground': '#4678CC',
-    'editor.lineHighlightBackground': '#2c313c',
-    'editor.rangeHighlightBackground': '#2c313c',
-    'sideBarSectionHeader.background': '#2c313c',
+    'editor.lineHighlightBackground': '#303b44',
+    'editor.rangeHighlightBackground': '#303b44',
+    'sideBarSectionHeader.background': '#303b44',
     'editor.background': '#29353B',
     'tab.activeBackground': '#29353B',
-    'titleBar.activeBackground': '#29353B'
+    'titleBar.activeBackground': '#29353B',
+    "editorIndentGuide.background": "#2f3942",
+    'selection.background': '#404757fd',
+    'editor.selectionBackground': '#404757fd'
 };
 
 const exportTheme = (name, mod, bg, gd) => {
