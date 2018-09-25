@@ -1,16 +1,16 @@
 {
-  "name": "ayu-one",
-  "displayName": "Ayu One",
-  "description": "A combination of Ayu and One dark theme.",
-  "version": "0.1.2",
+  "name": "ayu-adaptive",
+  "displayName": "Ayu Adaptive",
+  "description": "A modification of Ayu theme with Atom One, Adapta and macOS mojave color palette.",
+  "version": "0.1.3",
   "publisher": "ccy",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/libcy/ayu-one"
+    "url": "https://github.com/libcy/ayu-adaptive"
   },
   "bugs": {
-    "url": "https://github.com/libcy/ayu-one/issues",
+    "url": "https://github.com/libcy/ayu-adaptive/issues",
     "email": "teabyii@gmail.com"
   },
   "engines": {
@@ -23,9 +23,10 @@
     "theme",
     "ayu",
     "one",
-    "adapta"
+    "adapta",
+    "mojave"
   ],
-  "homepage": "https://github.com/libcy/ayu-one",
+  "homepage": "https://github.com/libcy/ayu-adaptive",
   "icon": "assets/logo.png",
   "contributes": {
     "themes": [
@@ -38,6 +39,11 @@
         "label": "Ayu Adapta",
         "uiTheme": "vs-dark",
         "path": "./ayu-adapta.json"
+      },
+      {
+        "label": "Ayu Mojave",
+        "uiTheme": "vs-dark",
+        "path": "./ayu-mojave.json"
       }
     ]
   },
@@ -47,6 +53,6 @@
   },
   "devDependencies": {
     "ayu": "4.0.0",
-    "vsce": "1.22.0"
+    "vsce": "^1.22.0"
   }
 }

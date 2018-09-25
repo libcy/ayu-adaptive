@@ -3,6 +3,10 @@ const path = require('path');
 const scheme = require('ayu').mirage;
 
 const oneColors = {
+    scheme: {
+        'bg': '#21252B',
+        'gd': '#181A1F'
+    },
     'focusBorder': '#00000000',
     'list.focusAndSelectionBackground': '#4678CC',
     'list.activeSelectionBackground': '#4678CC',
@@ -15,12 +19,17 @@ const oneColors = {
 };
 
 const adaptaColors = {
+    scheme: {
+        'bg': '#222D32',
+        'gd': '#181A1F'
+    },
     'focusBorder': '#00000000',
     'list.focusAndSelectionBackground': '#4678CC',
     'list.activeSelectionBackground': '#4678CC',
     'editor.lineHighlightBackground': '#303b44',
     'editor.rangeHighlightBackground': '#303b44',
     'sideBarSectionHeader.background': '#303b44',
+    'list.hoverBackground': '#303b44',
     'editor.background': '#29353B',
     'tab.activeBackground': '#29353B',
     'titleBar.activeBackground': '#29353B',
@@ -30,13 +39,44 @@ const adaptaColors = {
     'editor.selectionBackground': '#404757fd'
 };
 
-const exportTheme = (name, mod, bg, gd) => {
+const mojaveColors = {
+    scheme: {
+        'fg': '#bababb',
+        'rg': '#404041',
+        'bg': '#333335',
+        'gd': '#181A1F'
+    },
+    'focusBorder': '#00000000',
+    'list.focusAndSelectionBackground': '#4678CC',
+    'list.activeSelectionBackground': '#4678CC',
+    'editor.lineHighlightBackground': '#57575990',
+    'editor.rangeHighlightBackground': '#57575990',
+    'sideBarSectionHeader.background': '#575759',
+    'badge.background': '#959596',
+    'activityBarBadge.background': '#959596',
+    'list.hoverForeground': '#959596',
+    'list.hoverBackground': '#00000000',
+    'editor.background': '#262627',
+    'tab.activeBackground': '#333335',
+    'tab.inactiveBackground': '#262627',
+    'editorGroupHeader.tabsBackground': '#262627',
+    'titleBar.activeBackground': '#333335',
+    "editorIndentGuide.background": "#dfe9f20a",
+    "editorIndentGuide.activeBackground": "#dfe9f20a",
+    'selection.background': '#575759',
+    'editor.selectionBackground': '#57575990'
+}
+
+const exportTheme = (name, mod) => {
     const filepath = path.join(__dirname, '/' + name + '.json');
     const theme = JSON.parse(fs.readFileSync(filepath));
 
-    scheme.common.bg = bg;
-    scheme.ui.panel.bg = bg;
-    scheme.ui.gridDivider = gd;
+    scheme.common.bg = mod.scheme.bg;
+    scheme.ui.panel.rowBg = mod.scheme.rg || scheme.ui.panel.rowBg;
+    scheme.ui.fg = mod.scheme.fg || scheme.ui.fg;
+    scheme.ui.panel.bg = mod.scheme.bg;
+    scheme.ui.gridDivider = mod.scheme.gd;
+    delete mod.scheme;
 
     // https://github.com/ayu-theme/ayu-vim/tree/master/term
     const terminalColors = {
@@ -309,5 +349,6 @@ const exportTheme = (name, mod, bg, gd) => {
     console.log(`Updated ${filepath}`);
 };
 
-exportTheme('ayu-one', oneColors, '#21252B', '#181A1F');
-exportTheme('ayu-adapta', adaptaColors, '#222D32', '#181A1F');
+exportTheme('ayu-one', oneColors);
+exportTheme('ayu-adapta', adaptaColors);
+exportTheme('ayu-mojave', mojaveColors);

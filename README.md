@@ -1,4 +1,4 @@
-A modification of [vscode-ayu](https://github.com/teabyii/vscode-ayu) and with Atom's one dark style.
+A modification of [vscode-ayu](https://github.com/teabyii/vscode-ayu) with Atom One, Adapta and macOS mojave color palette.
 
 ## Install
 
@@ -13,6 +13,8 @@ If you want to setup File Icon, install the original [vscode-ayu theme](https://
 ## Screenshot
 
 ![ayu-one](assets/one.png)
+![ayu-adapta](assets/adapta.png)
+![ayu-mojave](assets/mojave.png)
 
 ## Development
 
