@@ -43,9 +43,12 @@ const mojaveColors = {
     scheme: {
         'fg': '#bababb',
         'rg': '#404041',
-        'bg': '#333335',
+        'bg': '#373839',
         'gd': '#181A1F'
     },
+    'sideBar.background': '#333335',
+    'activityBar.background': '#333335',
+    'statusBar.background': '#333335',
     'focusBorder': '#00000000',
     'list.focusAndSelectionBackground': '#4678CC',
     'list.activeSelectionBackground': '#4678CC',
@@ -56,7 +59,7 @@ const mojaveColors = {
     'activityBarBadge.background': '#959596',
     'list.hoverForeground': '#959596',
     'list.hoverBackground': '#00000000',
-    'editor.background': '#262627',
+    'editor.background': '#292a2f',
     'tab.activeBackground': '#333335',
     'tab.inactiveBackground': '#262627',
     'editorGroupHeader.tabsBackground': '#262627',
