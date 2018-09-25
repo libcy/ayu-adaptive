@@ -68,7 +68,7 @@ const mojaveColors = {
     'editorGroupHeader.tabsBackground': '#262627',
     "editorIndentGuide.background": "#dfe9f20a",
     "editorIndentGuide.activeBackground": "#dfe9f20a",
-    'selection.background': '#575759',
+    'selection.background': '#575759fd',
     'editor.selectionBackground': '#57575990'
 }
 
