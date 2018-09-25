@@ -12,7 +12,7 @@ Then go to `Preferences > Color Theme > Ayu One`.
 
 If you want to setup File Icon, install the original [vscode-ayu theme](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu) then go to Preferences > File Icon Theme > Ayu.
 
-## Screenshot
+## Screenshots
 
 ### Ayu One
 ![ayu-one](assets/one.png)
