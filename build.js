@@ -43,11 +43,11 @@ const mojaveColors = {
     scheme: {
         'fg': '#bababb',
         'rg': '#404041',
-        'bg': '#373839',
+        'bg': '#323334',
         'gd': '#181A1F'
     },
-    'panel.background': '#333335',
-    'terminal.background': '#333335',
+    // 'panel.background': '#323334',
+    // 'terminal.background': '#323334',
     // 'sideBar.background': '#333335',
     // 'activityBar.background': '#333335',
     // 'statusBar.background': '#333335',
