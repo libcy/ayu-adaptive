@@ -1,4 +1,4 @@
-![ayu](assets/logo.png)
+![ayu](assets/logo.png =250x)
 
 A modification of [vscode-ayu](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu) with Atom One, Adapta GTK and macOS Mojave color palette.
 
@@ -15,13 +15,13 @@ If you want to setup File Icon, install the original [vscode-ayu theme](https://
 ## Screenshot
 
 ### Ayu One
-![ayu-one](assets/one.png)
+![ayu-one](assets/one.png =500x)
 
 ### Ayu Adapta
-![ayu-adapta](assets/adapta.png)
+![ayu-adapta](assets/adapta.png =500x)
 
 ### Ayu Mojave
-![ayu-mojave](assets/mojave.png)
+![ayu-mojave](assets/mojave.png =500x)
 
 ## Development
 
