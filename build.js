@@ -46,8 +46,8 @@ const mojaveColors = {
         'bg': '#373839',
         'gd': '#181A1F'
     },
-    'panel.background': '#2e2e30',
-    'terminal.background': '#2e2e30',
+    'panel.background': '#333335',
+    'terminal.background': '#333335',
     // 'sideBar.background': '#333335',
     // 'activityBar.background': '#333335',
     // 'statusBar.background': '#333335',
