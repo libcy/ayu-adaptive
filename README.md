@@ -1,3 +1,5 @@
+![ayu](assets/logo.png)
+
 A modification of [vscode-ayu](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu) with Atom One, Adapta GTK and macOS Mojave color palette.
 
 ## Install
