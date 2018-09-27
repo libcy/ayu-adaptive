@@ -1,4 +1,4 @@
-<img src="assets/logo.png" width="120">
+<img src="https://raw.githubusercontent.com/libcy/ayu-adaptive/master/assets/logo.png" width="120">
 
 A modification of [vscode-ayu](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu) with Atom One, Adapta GTK and macOS Mojave color palette.
 
