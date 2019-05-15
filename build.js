@@ -109,8 +109,6 @@ const exportTheme = (name, mod) => {
         // ----- Base colors -----
         'foreground': scheme.ui.fg,
         'focusBorder': `${scheme.ui.fg}8A`,
-        // 'contrastBorder': '',
-        // 'contrastActiveBorder': '',
     
         'widget.shadow': `${scheme.ui.panel.shadow}b3`,
     
@@ -147,7 +145,6 @@ const exportTheme = (name, mod) => {
         'list.focusForeground': scheme.common.fg,
         'list.hoverBackground': scheme.ui.panel.rowBg,
         'list.hoverForeground': scheme.common.fg,
-        // 'list.dropBackground': '',
         'list.highlightForeground': scheme.common.accent,
     
         'pickerGroup.foreground': scheme.common.accent,
@@ -186,8 +183,6 @@ const exportTheme = (name, mod) => {
         'editorWhitespace.foreground': scheme.syntax.gutter,
         'editorIndentGuide.background': scheme.syntax.gutter,
         'editorLineNumber.foreground': scheme.syntax.gutter,
-        // 'editorMarkerNavigationError.background': '',
-        // 'editorMarkerNavigationWarning.background': '',
         'editorMarkerNavigation.background': scheme.ui.panel.bg,
         // 'editor.hoverHighlightBackground': '',
         'editorHoverWidget.background': scheme.ui.panel.bg,
@@ -200,13 +195,10 @@ const exportTheme = (name, mod) => {
         'editorRuler.foreground': scheme.ui.gridDivider,
     
         // ----- Editor error squiggles -----
-        // 'editorError.border': '',
         'editorError.foreground': scheme.syntax.error,
-        // 'editorWarning.border': '',
         'editorWarning.foreground': scheme.common.accent,
     
         // ----- Editor gutter -----
-        // 'editorGutter.background': '',
         'editorGutter.modifiedBackground': scheme.syntax.tag,
         'editorGutter.addedBackground': scheme.syntax.string,
         'editorGutter.deletedBackground': scheme.syntax.error,
@@ -214,7 +206,6 @@ const exportTheme = (name, mod) => {
         // ----- Editor suggest -----
         'editorSuggestWidget.background': scheme.ui.panel.bg,
         'editorSuggestWidget.border': scheme.ui.gridDivider,
-        // 'editorSuggestWidget.foreground': '',
         'editorSuggestWidget.selectedBackground': scheme.ui.panel.rowBg,
         'editorSuggestWidget.highlightForeground': scheme.common.accent,
     
@@ -222,27 +213,20 @@ const exportTheme = (name, mod) => {
         'peekView.border': scheme.ui.gridDivider,
         'peekViewEditor.background': scheme.ui.panel.bg,
         'peekViewEditor.matchHighlightBackground': `${scheme.common.accent}33`,
-        // 'peekViewEditorGutter.background': ''
         'peekViewTitle.background': scheme.ui.panel.bg,
         'peekViewTitleLabel.foreground': scheme.ui.fg,
         'peekViewTitleDescription.foreground': scheme.ui.fg,
         'peekViewResult.background': scheme.ui.panel.bg,
-        // 'peekViewResult.selectionBackground': '',
-        // 'peekViewResult.selectionForeground': '',
         'peekViewResult.matchHighlightBackground': `${scheme.common.accent}33`,
         'peekViewResult.fileForeground': scheme.ui.fg,
-        // 'peekViewResult.lineForeground': '',
     
         //  ----- Diff editor -----
         'diffEditor.insertedTextBackground': `${scheme.syntax.regexp}44`,
         'diffEditor.removedTextBackground': `${scheme.syntax.supVar}44`,
-        // 'diffEditor.insertedTextBorder': '',
-        // 'diffEditor.removedTextBorder': '',
     
         // ----- Workbench: editor group -----
         'editorGroup.background': scheme.ui.panel.bg,
         'editorGroup.border': scheme.ui.gridDivider,
-        // 'editorGroup.dropBackground': '',
         'editorGroupHeader.tabsBackground': scheme.common.bg,
         'editorGroupHeader.noTabsBackground': scheme.common.bg,
         "editorGroupHeader.tabsBorder": scheme.ui.gridDivider,
@@ -281,7 +265,6 @@ const exportTheme = (name, mod) => {
         'activityBar.background': scheme.common.bg,
         'activityBar.foreground': scheme.ui.fg,
         'activityBar.border': scheme.ui.gridDivider,
-        // 'activityBar.dropBackground': '',
         'activityBarBadge.background': scheme.syntax.activeGuide,
         'activityBarBadge.foreground': '#fff',
     
@@ -300,7 +283,6 @@ const exportTheme = (name, mod) => {
         'titleBar.border': scheme.ui.gridDivider,
     
         // ----- Workbench: notifications -----
-        // 'notification.foreground': '',
         'notification.background': scheme.ui.gridDivider,
     
         // ----- Workbench: extension buttons -----
@@ -312,14 +294,11 @@ const exportTheme = (name, mod) => {
         'welcomePage.quickLinkBackground': scheme.ui.panel.rowBg,
         'welcomePage.quickLinkHoverBackground': scheme.ui.gridDivider,
         'welcomeOverlay.foreground': scheme.common.fg,
-        // 'welcomeOverlay.background': '',
         'walkThrough.embeddedEditorBackground': scheme.ui.panel.bg,
         'textLink.foreground': scheme.common.accent,
         'textLink.activeForeground': scheme.common.accent,
         'textPreformat.foreground': scheme.common.fg,
         'textBlockQuote.background': scheme.ui.panel.bg,
-        // 'textBlockQuote.border': '',
-        // 'textCodeBlock.background: '',
     
         // ----- Workbench: debug -----
         'debugExceptionWidget.border': scheme.ui.gridDivider,
