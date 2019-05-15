@@ -1,3 +1,8 @@
+## 0.1.4
+
+`2018-5-15`
+Updated for remote development extension
+
 ## 0.1.3
 
 `2018-9-24`

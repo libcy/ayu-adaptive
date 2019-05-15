@@ -257,9 +257,11 @@ const exportTheme = (name, mod) => {
         'statusBar.debuggingBackground': scheme.ui.panel.bg,
         'statusBar.debuggingForeground': scheme.ui.fg,
         'statusBarItem.activeBackground': scheme.ui.gridDivider,
-        'statusBarItem.hoverBackground': scheme.ui.panel.rowBg,
+        // 'statusBarItem.hoverBackground': scheme.ui.panel.rowBg,
         'statusBarItem.prominentBackground': scheme.ui.gridDivider,
         'statusBarItem.prominentHoverBackground': scheme.ui.panel.rowBg,
+        'statusBarItem.remoteBackground': scheme.common.accent,
+        'statusBarItem.remoteForeground': scheme.common.bg,
     
         // ----- Workbench: activity bar -----
         'activityBar.background': scheme.common.bg,
